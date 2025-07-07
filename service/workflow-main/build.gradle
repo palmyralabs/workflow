@@ -22,11 +22,9 @@ application {
 }
 
 dependencies {	
-    implementation deps.springboot.web
-    implementation deps.springboot.jpa
-    implementation deps.spring.core
-    implementation deps.spring.web
-    // implementation deps.springboot.security
+    api project(':workflow-base')
+    api project(':workflow-core')
+    
     implementation deps.jackson.jsr310
 
     implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.5.11'
