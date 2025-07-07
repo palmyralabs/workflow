@@ -1,0 +1,5 @@
+rootProject.name = 'palmyralabs-workflow'
+
+include 'workflow-main'
+include 'workflow-core'
+include 'workflow-base'

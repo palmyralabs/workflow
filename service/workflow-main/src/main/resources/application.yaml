@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:mariadb://192.168.1.11:3306/ada_noc
+    username: dbuser
+    password: dbuser
+    default-auto-commit: false
+    driverClassName: org.mariadb.jdbc.Driver
+    hikari:
+      connection-timeout: 90000000
+      default-auto-commit: false
+
