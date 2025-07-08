@@ -1,0 +1,6 @@
+group = 'com.palmyralabs.workflow'
+
+dependencies {	
+	api project(':wf-base')
+	implementation deps.org.slf4j.api
+}

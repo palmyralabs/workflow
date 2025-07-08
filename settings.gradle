@@ -1,5 +1,6 @@
 rootProject.name = 'palmyralabs-workflow'
 
-include 'workflow-main'
-include 'workflow-core'
-include 'workflow-base'
+include 'wf-main'
+include 'wf-core'
+include 'wf-base'
+include 'wf-annotation-repo'

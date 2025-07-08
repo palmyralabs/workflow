@@ -1,6 +1,0 @@
-group = 'com.palmyralabs.workflow'
-
-dependencies {	
-	api project(':workflow-base')
-	implementation deps.org.slf4j.api
-}
